@@ -15,3 +15,6 @@ compile Go code to Wasm
 
 serve files with
 > goexec "http.ListenAndServe(\`:8080\`, http.FileServer(http.Dir(\`.\`)))"
+
+head to browser and open url
+> localhost:8080
